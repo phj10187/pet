@@ -1,0 +1,102 @@
+#logo {
+    color:rgb(85, 156, 4);
+    font-size: 300%;
+    position: absolute;
+    z-index: 10;
+    margin-left: 1.5%;
+    margin-top: 0.6%;
+}
+
+* { margin: 0; padding: 0;}
+body { font-family: sans-serif;}
+li { list-style: none;}
+a { text-decoration: none;}
+img { border: 0;}
+
+body{
+    background-color: black;
+}
+
+#lang {
+    position: absolute;
+    left: 1300px; top: 30px;
+    background-color: black;
+    width: 100px; height: 35px;
+    color: white;
+    border-color: white;
+    border-width: 0.08px;
+    border-radius: 5%;
+    outline: 0;
+    z-index: 10;
+}
+
+#login {
+    position: absolute;
+    left: 1400px; top: 30px;
+   margin-left: 20px;
+    background-color: rgb(85, 156, 4);
+    width: 80px; height: 35px;
+    color: white;
+    border-radius: 5%;
+    border: 0;
+    z-index: 10;
+}
+
+#picture {
+    z-index: 1;
+}
+
+
+.first {
+    color: white;
+    z-index: 10;
+    position: absolute;
+    left: 450px; top: 220px;
+    text-align: center;
+    font-size: 60px
+}
+
+.second {
+    color: white;
+    z-index: 10;
+    position: absolute;
+    left: 420px; top: 400px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.third {
+    color: white;
+    z-index: 10;
+    position: absolute;
+    left: 420px; top: 450px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#email_box {
+    z-index: 10;
+    position: absolute;
+    left: 450px; top: 500px;
+    width: 450px; height: 60px;
+    border-top-left-radius: 3px; border-bottom-left-radius: 3px;
+    border: 0;
+}
+
+#start {
+    color: white;
+    background-color: rgb(85, 156, 4);
+    z-index: 10;
+    position: absolute;
+    left: 900px; top: 500px;
+    width: 200px; height: 60px;
+    border: 0;
+    font-size: 25px;
+    border-top-right-radius: 3px; border-bottom-right-radius: 3px;
+}
+
+#line {
+    size: 10px;
+    color: grey;
+    z-index: 3;
+}
