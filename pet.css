@@ -5,6 +5,9 @@
     z-index: 10;
     margin-left: 1.5%;
     margin-top: 0.6%;
+
+
+
 }
 
 * { margin: 0; padding: 0;}
@@ -40,9 +43,10 @@ body{
     border-radius: 5%;
     border: 0;
     z-index: 10;
+
 }
 
-#picture {
+#picture{
     z-index: 1;
 }
 
@@ -54,6 +58,7 @@ body{
     left: 450px; top: 220px;
     text-align: center;
     font-size: 60px
+
 }
 
 .second {
@@ -63,6 +68,7 @@ body{
     left: 420px; top: 400px;
     text-align: center;
     font-size: 25px;
+
 }
 
 .third {
@@ -72,6 +78,7 @@ body{
     left: 420px; top: 450px;
     text-align: center;
     font-size: 18px;
+
 }
 
 #email_box {
@@ -81,6 +88,7 @@ body{
     width: 450px; height: 60px;
     border-top-left-radius: 3px; border-bottom-left-radius: 3px;
     border: 0;
+
 }
 
 #start {
@@ -94,9 +102,38 @@ body{
     font-size: 25px;
     border-top-right-radius: 3px; border-bottom-right-radius: 3px;
 }
+    
+}
 
 #line {
     size: 10px;
     color: grey;
     z-index: 3;
+
+}
+
+.title {
+    font-size: 40px;
+    color: white;
+    z-index: 10;
+    position: absolute;
+    left: 300px; top: 900px;
+
+}
+
+.text {
+    color: white;
+    z-index: 10;
+    position: absolute;
+    left: 300px; top: 970px;
+    text-align: left;
+    font-size: 25px;
+
+
+}
+
+.pic {
+    position: absolute;
+    left: 870px; top: 910px;
+
 }
